@@ -1,0 +1,58 @@
+{
+  "name": "@weksik/eslint",
+  "private": false,
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "description": "Библиотека для шаринга eslint конфигурации",
+  "author": "Vladislav Marchenko",
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "eslint-plugin-storybook": "^0.8.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.5.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.3.3",
+    "@semantic-release/npm": "^12.0.1",
+    "@types/node": "^22.5.5",
+    "commitizen": "^4.3.0",
+    "commitlint": "^19.5.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.2.1",
+    "semantic-release": "^24.1.1",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "eslint": "^9.10.0"
+  },
+  "overrides": {
+    "eslint": "^9.10.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.cjs"
+    }
+  }
+}
