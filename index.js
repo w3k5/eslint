@@ -5,6 +5,7 @@ import tseslint from "typescript-eslint";
 import eslintReact from "eslint-plugin-react";
 import eslintConfigPrettier from "eslint-config-prettier";
 import prettierPlugin from "eslint-plugin-prettier";
+import unusedImports from "eslint-plugin-unused-imports";
 
 export default tseslint.config(
     {
@@ -13,6 +14,7 @@ export default tseslint.config(
             "airbnb-typescript": airbnbTypescript,
             prettier: prettierPlugin,
             react: eslintReact,
+            "unused-imports": unusedImports,
         },
     },
     {
@@ -34,6 +36,18 @@ export default tseslint.config(
         rules: {
             ...prettierPlugin.configs.recommended.rules,
             ...eslintConfigPrettier.rules,
+            "no-unused-vars": "off",
+            "@typescript-eslint/no-unused-vars": "off",
+            "unused-imports/no-unused-imports": "error",
+            "unused-imports/no-unused-vars": [
+                "warn",
+                {
+                    vars: "all",
+                    varsIgnorePattern: "^_",
+                    args: "after-used",
+                    argsIgnorePattern: "^_",
+                },
+            ]
         },
     },
 );

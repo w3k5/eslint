@@ -15,7 +15,7 @@
   "description": "Библиотека для шаринга eslint конфигурации",
   "author": "Vladislav Marchenko",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "npx cz"
   },
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
@@ -28,6 +28,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.12",
     "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
     "globals": "^15.9.0",
     "typescript-eslint": "^8.5.0"
   },
