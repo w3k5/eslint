@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/w3k5/eslint/compare/v1.0.1...v1.1.0) (2024-09-15)
+
+
+### Features
+
+* **custom:** добавление плагина eslint-plugin-unused-imports ([3f1b99c](https://github.com/w3k5/eslint/commit/3f1b99c9b31e1dc63ca979e0d28e7188c86d35a2))
+
 ## [1.0.1](https://github.com/w3k5/eslint/compare/v1.0.0...v1.0.1) (2024-09-15)
 
 
