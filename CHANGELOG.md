@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/w3k5/eslint/compare/v1.1.0...v1.2.0) (2024-09-26)
+
+
+### Features
+
+* **custom:** обновление зависимостей ([733c9aa](https://github.com/w3k5/eslint/commit/733c9aa83ee611990a5110ca273db28fbf5d4062))
+
 # [1.1.0](https://github.com/w3k5/eslint/compare/v1.0.1...v1.1.0) (2024-09-15)
 
 
